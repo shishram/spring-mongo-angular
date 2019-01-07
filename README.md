@@ -3,6 +3,8 @@
 Important commands
 
 sudo npm install -g @angular/cli
+
+
 ./gradlew bootRun
 
 # Adding mongo to application.properties
@@ -24,7 +26,7 @@ export PATH=$PATH:$MONGO_PATH/bin
 # Auto Start MongoDB
 sudo vim /Library/LaunchDaemons/mongodb.plist
 
-{
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -49,7 +51,6 @@ sudo vim /Library/LaunchDaemons/mongodb.plist
 </dict>
 </plist>
 
-}
 
 
 sudo launchctl load /Library/LaunchDaemons/mongodb.plist
